@@ -1,0 +1,16 @@
+.first_page_lording{
+    width: 100vh;
+    height: 100vh;
+    background-color: #F9E001;
+    display: flex;
+    margin: 0px;
+}
+.first_page_lording span{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.first_page_lording i{
+    font-size : 100px;
+}

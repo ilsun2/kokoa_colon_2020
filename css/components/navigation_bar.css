@@ -1,0 +1,18 @@
+.navigation_bar{
+    display: flex;
+    justify-content: center;
+}
+.navigation_bar :first-child{
+    width: 33%;
+    justify-content: center;
+}
+.navigation_bar  :nth-child(2){
+    width: 33%;
+    justify-content: center;
+    align-items: center;
+}
+.navigation_bar :last-child{
+    width: 33%;
+    justify-content: center;
+    align-items: flex-end;
+}
