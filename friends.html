@@ -1,40 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="kr">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome</title>
-</head>
-<body>
-    <div class="status_bar">
-        <div class="status_bar_colum"><span>No Service<i class="fas fa-wifi"></i></span></div>
-        <div class="status_bar_colum"><span>18:43</span></div>
-        <div class="status_bar_colum">100%<i class="fas fa-battery-full"></i><i class="fas fa-bolt"></i></div>
-    </div>
-    <main>
-        <div class="main_bar">
-            <div class="main_bar_colum">
-                <span>Friends</span>
-            </div>
-            <div class="main_bar_colum">
-                <a href="#" class="main_bar_icon"><i class="fas fa-search"></i></a>
-                <a href="#" class="main_bar_icon"><i class="fas fa-music"></i></a>
-                <a href="#" class="main_bar_icon"><i class="fas fa-cog"></i></a>
-            </div>
-        </div>
-        <a href="#" class="friend_find">
-            <span>Frinds' Names Display</span>
-        </a>
-        <div class="person_colum colum__xl">
-            <img src="#" />
-            <span>Nicolas</span>
-        </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    </main>
-    
-    <script
-    src="https://kit.fontawesome.com/6478f529f2.js"
-    crossorigin="anonymous">
-    </script>
+    <title>Welcome to KokoaTalk</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- Status Bar -->
+    <div class="status-bar">
+        <div class="status-bar__colum">
+            <span>No Service</span><i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__colum">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__colum">
+            <span>100%</span><i class="fas fa-battery-full"></i><i class="fas fa-bolt"></i>
+        </div>
+    </div>
+    <!-- Status Bar -->
+    <!-- Screen Header -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-cog"></i>
+        </div>
+    </header>
+    <!-- Screen Header -->
+    <!-- Friends Find -->
+    <div class="friend_find_link">
+        <a href="#">
+            Friends' Names Display
+        </a>
+    </div>
+    <!-- Friends Find -->
+    <!-- User Profile Big Size -->
+    <div class="user_profile">
+        <img class="user_profile_avatar" src="" />
+        <span class="user_profile_name">Nicolas</span>
+    </div>
+    <!-- User Profile Big Size -->
+    <!-- channel -->
+    <div class="channel">
+        <span>Channel</span>
+    </div>
+    <!-- channel -->
+    <!-- User Profile -->
+    <div class="user_profile">
+        <img class="user_profile_avatar" src="" />
+        <span class="user_profile_name">Nicolas</span>
+    </div>
+    <!-- User Profile -->
+    <!-- Navigation Bar -->
+    <div class="navi-bar">
+        <div class="nnavi-bar__colum"><a href = "#"><i class="fas fa-user-alt"></i></a>
+        </div>
+        <div class="nnavi-bar__colum"><a href = "#"><i class="far fa-comment"></i></a></div>
+        <div class="nnavi-bar__colum"><a href = "#"><i class="fas fa-search"></i></a></div>
+        <div class="nnavi-bar__colum"><a href = "#"><i class="fas fa-ellipsis-h"></i></a></div>
+    </div>
+    <!-- Navigation Bar -->
+
+
+
+
+
+
+        <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
