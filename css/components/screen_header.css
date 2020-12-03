@@ -1,0 +1,22 @@
+.screen-header {
+  display: flex;
+  margin: 19px 0px;
+  padding-left: 20px;
+  width: 100%;
+}
+.screen-header__title {
+  font-size: 28px;
+  font-weight: 800;
+  width: 50%;
+}
+.screen-header__icons {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+/*링크에 색들어가는거 없애야함*/
+.screen-header__icons a {
+  margin-left: 10px;
+}

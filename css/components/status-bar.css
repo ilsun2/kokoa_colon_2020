@@ -1,0 +1,21 @@
+.status-bar {
+  display: flex;
+  align-items: center;
+  margin: 5px 3px;
+}
+.status-bar__colum {
+  display: flex;
+  width: 33%;
+}
+.status-bar :nth-child(2) {
+  justify-content: center;
+}
+.status-bar :last-child {
+  justify-content: flex-end;
+}
+.status-bar :last-child i {
+  margin-left: 5px;
+}
+.status-bar :first-child span {
+  margin-right: 5px;
+}

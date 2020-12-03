@@ -1,0 +1,41 @@
+.friend_find_link {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.09);
+  padding: 10px 0px;
+}
+.friend_find_link a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 1);
+}
+.friend_find_link a i {
+  margin-left: 5px;
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.user_profile {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.user_profile img {
+  width: 60px;
+  height: 60px;
+  border-radius: 40%;
+  margin: 0px 12px;
+}
+.user_profile_name {
+  font-size: 18px;
+  font-weight: 600;
+}
+.channel {
+  display: flex;
+  padding: 10px 10px;
+  height: 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3) ;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3);
+  justify-content: space-between;
+  bor
+}
