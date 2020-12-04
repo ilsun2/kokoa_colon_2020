@@ -46,44 +46,42 @@
   align-items: center;
   padding: 10px 0px;
 }
+.user_profile_avatar_mid {
+  width: 50px;
+  height: 50px;
+  border-radius: 40%;
+  margin: 0px 15px;
+}
 .user_profile_mid__colum {
   display: flex;
-  align-items: center;
-}
-.user_profile_name_small_mid {
-  font-size: 18px;
-  font-weight: 400;
-}
-.user_profile_avatar_mid {
-  width: 52px;
-  height: 52px;
-  border-radius: 40%;
-  margin: 0px 12px;
-}
-.user_profile_mid__colum :first-child {
-  margin-bottom: 5px;
-}
-.user_profile_mid__colum_conversation {
-  display: flex;
-  width: 70%;
   flex-direction: column;
-  align-items: start;
-  justify-content: center;
 }
-
+.user_profile_mid :nth-child(2) {
+  width: 80%;
+}
 .user_profile_name_mid {
   font-size: 18px;
   font-weight: 600;
+  margin-bottom: 10px;
 }
-.user_profile_mid__colum_time {
+.conversations {
+  color: rgba(0, 0, 0, 0.5);
+}
+.user_profile_mid :last-child :last-child {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+}
+.conversations_date {
+  color: rgba(0, 0, 0, 0.5);
 }
 .dont_read {
+  color: white;
+  background-color: tomato;
   border-radius: 50%;
-  background-color: red;
-  padding: 3px 0px;
+  padding: 5px 0px;
+  margin-left: 5px;
 }
-/* chat mid-size */
+
+/* chat mid-sizev */
