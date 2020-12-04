@@ -16,7 +16,9 @@
   justify-content: flex-end;
   padding-right: 30px;
 }
-/*링크에 색들어가는거 없애야함*/
+/*링크에 색들어가는거 없애야함 ->  a:visited {
+  color: black;
+} */
 .screen-header__icons a {
   margin-left: 10px;
 }
