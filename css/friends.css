@@ -1,0 +1,17 @@
+.friend_find_link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  padding: 10px 0px;
+  font-size: 16px;
+  opacity: 0.6;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.channel {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  opacity: 0.6;
+}
