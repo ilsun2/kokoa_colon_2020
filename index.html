@@ -19,15 +19,19 @@
         </div>
     </div>
 <!-- Status Bar -->
-    <div class="welcome_title"><span>Welcome to KokoaTalk</span></div>
-    <div class="welcome_text"><span>If you have a Kokoa Account,</br>
-         log in with email or phone number.</span></div>
-    <form class="log_in_form">
-        <input type="text" class="log_in" placeholder="Email or phone number">
-        <input type="password" class="log_in" placeholder="Password">
-        <input type="submit" value="Log In">
-        <a href="#">Find Kokoa Account or Password</a></div>
+    <div class="welcome_title">
+        <span>Welcome to KokoaTalk</span>
     </div>
+    <div class="welcome_text">
+        <span>If you have a Kokoa Account,</br>
+         log in with email or phone number.</span>
+    </div>
+    <form class="log_in_form" action="friends.html " method="get" >
+        <input name="email" type="email" class="log_in" placeholder="Email or phone number" required/>
+        <input name="password" type="password" class="log_in" placeholder="Password" minlength="10" required/>
+        <input type="submit" value="Log In" />
+        <a href="#">Find Kokoa Account or Password</a>
+    </form>
     <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
 </body>
 </html>
